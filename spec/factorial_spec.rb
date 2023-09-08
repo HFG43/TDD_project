@@ -1,5 +1,5 @@
 require 'spec_helper'
-requier_relative '../solver.rb'
+require_relative '../solver.rb'
 
 describe Solver do
   describe '#factorial' do
@@ -13,7 +13,7 @@ describe Solver do
       expect(result).to eq(1)
     end
 
-    it "should raise an exeption if is a negative number"
+    it "should raise an exeption if is a negative number" do
       result = Solver.new.factorial(-5)
       expect(result).to raise_error('Error')
     end
