@@ -14,8 +14,7 @@ describe Solver do
     end
 
     it "should raise an exeption if is a negative number" do
-      result = Solver.new.factorial(-5)
-      expect(result).to raise_error('Error')
+      expect { Solver.new.factorial(-5) }.to raise_error(StandardError, 'Error: not negative numbers allowed')
     end
   end
 end  
