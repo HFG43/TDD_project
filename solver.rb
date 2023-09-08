@@ -27,4 +27,12 @@ class Solver
     result = string.reverse
     result
   end  
+
+  def fizzbuzz(n)
+    
+    if(n % 3 == 0)
+      return 'fizz'
+    end
+    
+  end
 end  
