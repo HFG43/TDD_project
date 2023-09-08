@@ -10,6 +10,8 @@ class Solver
       raise StandardError, 'Error: not negative numbers allowed'
     end
 
+    return 1 if integer == 0
+    
     result = 1
     factorial_result = 1
     
