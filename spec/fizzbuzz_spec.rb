@@ -20,7 +20,7 @@ describe Solver do
 
 		it 'should take an argument is multiple of 7, an integer, and return a 7' do
 			obj_class = Solver.new
-			expect(obj_class.fizzbuzz(7)).to eq('fizz')
+			expect(obj_class.fizzbuzz(7)).to eq('7')
 		end
 	end
 end
