@@ -11,7 +11,7 @@ class Solver
     end
 
     return 1 if integer == 0
-    
+
     result = 1
     factorial_result = 1
     
@@ -22,4 +22,9 @@ class Solver
     
     factorial_result
   end
+
+  def reverse(string)
+    result = string.reverse
+    result
+  end  
 end  
