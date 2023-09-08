@@ -6,6 +6,10 @@ class Solver
   end
   
   def factorial(integer)
+    if integer < 0
+      raise StandardError, 'Error: not negative numbers allowed'
+    end
+
     result = 1
     factorial_result = 1
     
